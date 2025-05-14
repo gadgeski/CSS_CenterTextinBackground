@@ -1,6 +1,7 @@
 /* 背景画像中央にテキストを重ねる */
 .mainvisual {
-  height: 400px;
+  height: 600px;
+  width: auto;
   background: url(img/Ver.2_MainVisual2025.png) no-repeat;
   background-position: center bottom;
   background-size: cover;
