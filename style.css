@@ -1,0 +1,25 @@
+/* 背景画像中央にテキストを重ねる */
+.mainvisual {
+  height: 400px;
+  background: url(img/Ver.2_MainVisual2025.png) no-repeat;
+  background-position: center botoom;
+  background-size: cover;
+
+  display: gird;
+  place-content: center center;
+
+  .catch-phrase {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgb(0 0 0 / 0.75);
+  }
+
+  @media (width >= 768px) {
+    & {
+      .catch-phrase {
+        font-size: 36px;
+      }
+    }
+  }
+}
